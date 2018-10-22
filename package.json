@@ -1,0 +1,15 @@
+{
+  "name": "awesomeapp",
+  "version": "1.0.0",
+  "devDependencies": {
+    "protractor": "^5.4.1"
+  },
+  "scripts": {
+     "preselenium": "webdriver-manager update",
+    "selenium": "webdriver-manager start",
+   "test": "protractor conf.js"
+  },
+  "dependencies": {
+    "protractor-beautiful-reporter": "^1.2.5"
+  }
+}
